@@ -10,7 +10,18 @@ Extras:
 	Author:Bilakhiya Asif
 """
 n=int(input("Enter Number:"))
+if n%4==0:
+	print(str(n)+" is divisible by 4")
 if n%2==0:
 	print(str(n)+" is Even.")
 else:
 	print(str(n)+" is odd.")
+
+##Extras	
+print("Enter 2 Number:")
+num=int(input())	
+check=int(input())
+if num%check==0:
+	print(str(check)+" divides "+str(num)+" evenly")
+else:
+	print(str(check)+" do not divides "+str(num)+" evenly")
